@@ -1,11 +1,15 @@
 body {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 h1 {
-  color: #66BFBF;  
+  color: #66bfbf;
 }
+h1:hover {
+  color: aquamarine;
+}
+
 h3 {
-  color: #66BFBF;
+  color: #66bfbf;
 }
 hr {
   border-style: none;
@@ -15,3 +19,17 @@ hr {
   height: 0px;
   width: 5%;
 }
+
+/*
+- Para reglas a las clases se utiliza un punto al principio, varias porciones de código pueden usar la misma clase
+- Un mismo elemento puede tener varias clases: class"civilisLogo estiloCircular"
+.civilisLogo {
+
+}
+
+- Para reglas a los id se utiliza un # al principio, los id son únicos
+- Un elemento sólo puede tener un ID
+#civilisLogo {
+
+}
+*/
